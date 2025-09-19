@@ -1,4 +1,4 @@
-# 🎤 Metaphor Generation with Billy Woods–Fine-Tuned LLM
+# Metaphor Generation with Billy Woods–Fine-Tuned LLM
 
 This project explores whether large language models can generate or evaluate **metaphorical creativity**, and whether fine-tuning them on a **stylistically rich corpus** — in this case, the abstract, politically-charged lyrics of hip-hop artist Billy Woods — improves their performance.
 
@@ -7,7 +7,7 @@ This project explores whether large language models can generate or evaluate **m
 
 ---
 
-## 🧠 Project Summary
+## Project Summary
 
 - Fine-tuned a **Mistral 7B** language model on the complete lyrical archive of Billy Woods.
 - Prompted the model with metaphor stems like:
@@ -20,7 +20,7 @@ This project explores whether large language models can generate or evaluate **m
 
 ---
 
-## 🔗 Model Access
+## Model Access
 
 | Model | Hugging Face Link |
 |-------|-------------------|
@@ -29,8 +29,8 @@ This project explores whether large language models can generate or evaluate **m
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
-
-## 🧠 Metaphor Scoring Model
+```
+## Metaphor Scoring Model
 
 The creativity scorer used in this project is based on a methodology from:
 
