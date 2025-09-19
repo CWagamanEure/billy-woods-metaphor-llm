@@ -41,17 +41,3 @@ _"Automatic Scoring of Metaphor Creativity with Large Language Models"
 We re-implemented and fine-tuned a GPT-2 model using their dataset of metaphors rated by human annotators (-1 to +2).  
 Our implementation achieved a Pearson correlation of 0.68 on the original test set.
 
-
-billy-woods-metaphor-llm/
-│
-├── README.md                  ← You are here
-├── requirements.txt
-├── final_script.md           ← Full symposium presentation
-│
-├── notebooks/
-│   ├── evaluate_finetuned_model.ipynb  ← Load model & score metaphor completions
-│   └── metaphor_scorer_training.ipynb  ← (Optional) Fine-tune GPT-2 scorer
-│
-├── outputs/
-│   ├── metaphor_outputs.csv   ← Base vs. fine-tuned model outputs
-│   └── creativity_scores.csv  ← Scores assigned by the GPT-2 scorer
